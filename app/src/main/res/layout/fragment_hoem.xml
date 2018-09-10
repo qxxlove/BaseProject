@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="主页"
+        android:layout_gravity="center"
+        />
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="主页\\jfkdjk fgk"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sdkfksjfdkasjfkajfkajfkaj f"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/button_popup_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转popupWIndow activity界面"
+        />
+
+    <Button
+        android:id="@+id/button_pop_two_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到pupup two Activity"
+        />
+    <Button
+        android:id="@+id/button_toolbar_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转6.0权限 activity界面"
+        />
+    <Button
+        android:id="@+id/button_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取时间差"
+        />
+    <Button
+        android:id="@+id/button_scroll_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转scroll activity界面"
+        />
+
+    <Button
+        android:id="@+id/button_search_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转search activity界面"
+        />
+
+    <Button
+        android:id="@+id/button_dialog_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转dialog activity界面"
+        />
+    <Button
+        android:id="@+id/button_slide_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转抽屉  activity界面"
+        />
+    <Button
+        android:id="@+id/button_viewgroup_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转viewgroup activity界面"
+        />
+    <Button
+        android:id="@+id/button_pay_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转支付宝pay activity界面"
+        />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

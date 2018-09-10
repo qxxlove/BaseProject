@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_nested_scroll_one"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.dell.baseproject.ui.nestedscroll.NestedScrollOneActivity">
+
+      <com.example.dell.baseproject.ui.nestedscroll.MyNestedScrollParent
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          >
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:src="@mipmap/ic_launcher" />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#f0f"
+              android:text="jsadkfjsdkfjksfjsfkajdf" />
+
+          <com.example.dell.baseproject.ui.nestedscroll.MyNestedScrollChild
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              >
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="50dp"
+                  android:text="我是孩子布局里面的内容"
+                  android:textColor="#f0f" />
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="我是孩子布局里面的内容2" />
+              <ImageView
+                  android:id="@+id/image_nestedScroll_click"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:src="@mipmap/icon_imglanyan"
+                  android:scaleType="center"
+                  />
+
+          </com.example.dell.baseproject.ui.nestedscroll.MyNestedScrollChild>
+
+
+      </com.example.dell.baseproject.ui.nestedscroll.MyNestedScrollParent>
+
+</RelativeLayout>

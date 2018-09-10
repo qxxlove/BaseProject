@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="种类"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/text_login_mvp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="精细版的login  mvp"
+         android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/text_rx_java"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rxjava"
+        android:textSize="20sp"
+        android:layout_marginTop="@dimen/dp_10"
+        />
+    <TextView
+        android:id="@+id/text_retrofit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="retrofit"
+        android:textSize="20sp"
+        android:layout_marginTop="@dimen/dp_10"
+        />
+    <TextView
+        android:id="@+id/text_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多线程下载"
+        android:textSize="20sp"
+        android:layout_marginTop="@dimen/dp_10"
+        />
+    <TextView
+        android:id="@+id/text_retrofit_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="retrofit_login"
+        android:textSize="20sp"
+        android:layout_marginTop="@dimen/dp_10"
+        />
+    <TextView
+    android:id="@+id/text_NestedScroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="NestedScroll 滑动机制嵌套布局"
+    android:textSize="20sp"
+    android:layout_marginTop="@dimen/dp_10"
+    />
+    <TextView
+        android:id="@+id/text_recycler_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="recyclerview 上拉加载，下拉刷新，多种数据类型，添加头部。。。"
+        android:textSize="20sp"
+        android:layout_marginTop="@dimen/dp_10"
+        />
+    <TextView
+        android:id="@+id/text_recycler_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="recycler 学习"
+        android:textSize="20sp"
+        android:layout_marginTop="@dimen/dp_10"
+        />
+    <TextView
+        android:id="@+id/text_jsoup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jsoup 爬虫网络数据"
+        android:textSize="20sp"
+        android:layout_marginTop="@dimen/dp_10"
+        />
+    <TextView
+        android:id="@+id/text_constraintlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ConstraintLayout 约束布局"
+        android:textSize="20sp"
+        android:layout_marginTop="@dimen/dp_10"
+        />
+    <TextView
+        android:id="@+id/text_coordinatorlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CoordinatorLayout  5.0新特性"
+        android:textSize="20sp"
+        android:layout_marginTop="@dimen/dp_10"
+        />
+    <TextView
+        android:id="@+id/text_coordinatorlayout_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CoordinatorLayout  5.0新特性(2)"
+        android:textSize="20sp"
+        android:layout_marginTop="@dimen/dp_10"
+        />
+    <TextView
+        android:id="@+id/text_banner_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="banner 广告位"
+        android:textSize="20sp"
+        android:layout_marginTop="@dimen/dp_10"
+        />
+    <TextView
+        android:id="@+id/viewpager_cool_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="超逊的viewpager 效果"
+        android:textSize="20sp"
+        android:layout_marginTop="@dimen/dp_10"
+        />
+            <TextView
+                android:id="@+id/viewpager_two_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="仿探探App的 viewpager 效果"
+                android:textSize="20sp"
+                android:layout_marginTop="@dimen/dp_10"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

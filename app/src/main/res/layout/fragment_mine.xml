@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我的"
+        android:layout_gravity="center"
+        />
+
+     <Button
+    android:id="@+id/btn_listview_single"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="listview 的单选"
+    />
+
+    <Button
+        android:id="@+id/btn_https_internet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="访问https 网址"
+        />
+    <Button
+        android:id="@+id/btn_srollvoiew_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn_srollvoiew_activity 嵌套"
+        />
+    <Button
+        android:id="@+id/btn_activity_base_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="activity 基础 "
+        />
+</LinearLayout>

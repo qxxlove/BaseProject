@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.baseproject.mvp.biz.mmmmvp.v.LoginActivity">
+
+    <EditText
+        android:id="@+id/edit_input_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入手机号"
+        />
+
+    <EditText
+        android:id="@+id/edit_input_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:layout_marginTop="@dimen/dp_10"
+        />
+
+     <Button
+         android:id="@+id/btn_login"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@color/blue_e1"
+         android:text="登录"
+         android:textColor="@color/color_ff"
+         android:layout_gravity="center"
+         android:layout_marginTop="@dimen/dp_10"
+         />
+
+</LinearLayout>

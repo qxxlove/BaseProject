@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_slide_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.baseproject.activity.SlideMenuActivity"
+    >
+
+    <!--SlidingDrawer就是重要的抽屉控件 ，handle是抽屉的拖动按钮，content是抽屉中的内容。
+-->
+
+    <SlidingDrawer
+        android:id="@+id/sliding"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:content="@+id/allApps"
+        android:handle="@+id/imageViewIcon"
+        android:orientation="vertical"
+        android:background="@color/blue_e1"
+        android:layout_margin="10dp"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:id="@+id/imageViewIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_arrow_down" />
+
+        <TextView
+        android:id="@+id/allApps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="抽屉内容"
+
+        />
+    </SlidingDrawer>
+
+
+    <Button
+        android:id="@+id/button_open"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="打开"
+        android:visibility="gone" />
+
+</LinearLayout>

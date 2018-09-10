@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="购物车"
+        android:layout_gravity="center"
+        />
+
+
+    <Button
+        android:id="@+id/button_listview_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转listview  activity界面"
+        />
+    <Button
+        android:id="@+id/button_butterknife_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转butterknife  activity界面"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/button_sharedPrefernces_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转haredPrefernces  activity界面"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/button_baidumap_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转baidumap  activity界面"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/button_mvp_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转mvp  activity界面"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/button_log_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转logtwoutils  activity界面"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/button_gridview_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转gridview  activity界面"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/button_Thread_Pool_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转ThreadPoolExecutor界面"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>
