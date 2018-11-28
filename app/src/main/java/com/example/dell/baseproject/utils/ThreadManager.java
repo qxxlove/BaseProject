@@ -1,9 +1,13 @@
 package com.example.dell.baseproject.utils;
 
-import java.util.concurrent.Executors;
+import android.support.annotation.NonNull;
+
 import java.util.concurrent.SynchronousQueue;
+import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicInteger;
+
 /**
  * description:
  * autour: TMM
@@ -70,13 +74,29 @@ public class ThreadManager {
                      // DiscardOldestPolicy 丢弃队列里最近的一个任务，并执行当前任务
                     // DiscardPolicy ： 不处理，丢弃掉
                 synchronousQueue = new SynchronousQueue<Runnable>();
-                executor = new ThreadPoolExecutor(
+            /*    executor = new ThreadPoolExecutor(
                         corePoolSize,maximumPoolSize,keepAliveTime, TimeUnit.SECONDS,
                         synchronousQueue, Executors.defaultThreadFactory(),
+                        new ThreadPoolExecutor.AbortPolicy());*/
+                
+                executor = new ThreadPoolExecutor(
+                        corePoolSize,
+                        maximumPoolSize,
+                        keepAliveTime,
+                        TimeUnit.SECONDS,
+                        synchronousQueue,
+                        // FIXME: 2018/11/28  下面代码起什么作用
+                        new ThreadFactory() {
+                            private final AtomicInteger mCount = new AtomicInteger(1);
+                                 @Override
+                                 public Thread newThread(@NonNull Runnable r) {
+                                 return new Thread(r, "download#" + mCount.getAndIncrement());
+                         }
+                        },
                         new ThreadPoolExecutor.AbortPolicy());
-            }
+                        }
+                        
             if(executor != null){
-
                 executor.execute(r);
             }
         }
